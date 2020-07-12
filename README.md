@@ -1,2 +1,3 @@
-# narzedzia-procesu-tworzenia-oprogramowania-aplikacja
-Narzedzia procesu tworzenia oprogramowania - aplikacja Spedycja - II semestr - informatyka stosowana
+# Specycja
+## Aplikacja przygotowana na potrzeby przedmioru Narzędzia procesu tworzenia oprogramowania
+## II semestr | Informatyka stosowana | Wyższa Szkoła Ekonomiczna w Białymstoku

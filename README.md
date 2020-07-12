@@ -31,13 +31,23 @@ W stosunku do projektu pierwotnego wprowadziłam następujące zmiany:
 - dodałam Bootstrap'owe komponenty (alert) do wyświetlania informacji o poprawnym/niepoprawnym zapisie do bazy danych,
 - dodałam stylowanie css do wielu komponentów, aby poprawnie dostosowywały się do ilości wyświetlanej treści.
 
+## Instrukcja
+
+Kroki, które należy podjąć aby odpalić projekt:
+1. Zainstalować pakiet xampp.
+2. Sklonować repozytorium do folderu htdocs.
+3. Uruchomić xampp i odpalić moduł Apache i MySQL
+4. Dodać bazę danych 'spedycja' do baz danych na serwerze (zrzut bazy danych znajduje się w repozytorium - spedycja.sql)
+5. Uruchomić aplikację poprzez wejście na http://localhost/spedycja/
+6. Korzystanie z aplikacji wymaga logowania: zarówno login i hasło pozostało niezmienione w stosunku do projektu pierwotnego.
+
 ## Przydatne informacje
 
 Linki do zasobów, które zostały wykorzystane projekcie:
 - Bootstrap
   https://getbootstrap.com/
-- w trakcie pracy napotkałam problem związany z uprawnieniami do plików w folderze htdocs - Linux zezwalał na ich edycję tylko dla użytkownika root. Poniżej link który pomógł mi rozwiązać ten problem:
-  https://getbootstrap.com/
+- w trakcie pracy napotkałam problem związany z uprawnieniami do plików w folderze htdocs - Linux zezwalał na ich edycję tylko dla użytkownika root. W linku znajdują się przydatne wskazówki jak zmienić uprawnienia do plików:
+  https://stackoverflow.com/questions/3740152/how-do-i-change-permissions-for-a-folder-and-all-of-its-subfolders-and-files-in
 - dokumentacja PHP
   https://www.php.net/docs.php
 - kurs bazy danych
